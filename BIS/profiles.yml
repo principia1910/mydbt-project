@@ -1,0 +1,10 @@
+BIS:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      role: ACCOUNTADMIN
+      warehouse: DBT_WH
+      database: CORPORATE_DB
+      schema: CONTROL_SCHEMA
+      threads: 8

@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: adf_raw_landing
+    database: CORPORATE_DB
+    schema: CONTROL_SCHEMA
+    tables:
+      - name: RAW_SFDC_ACCOUNTS
